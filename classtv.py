@@ -29,7 +29,7 @@ class TV:
             self.channel += 1
 
     def channelDown(self):
-        if self.on and self.channel > 1
+        if self.on and self.channel > 1:
             self.channel -= 1
 
     def volumeUp(self):

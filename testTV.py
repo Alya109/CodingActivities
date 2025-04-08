@@ -17,5 +17,5 @@ tv2.setChannel(3)
 tv2.setVolume(2)
 
 # Checking status
-print(f"{tv1}")
-print(f"{tv2}")
+print(f"tv1's channel is {tv1.getChannel()} and volume level is {tv1.getVolume()}")
+print(f"tv2's channel is {tv2.getChannel()} and volume level is {tv2.getVolume()}")
