@@ -30,3 +30,17 @@ class Reptile(Animal):
         
     def crawl(self):
         print("Crawls stealthily.")
+
+
+lion = Lion("Lion", 14)
+bird = Bird("Bird", 10)
+reptile = Reptile("Reptile", 12)
+
+lion.make_sound()
+lion.roar()
+
+bird.make_sound()
+bird.fly()
+
+reptile.make_sound()
+reptile.crawl()
