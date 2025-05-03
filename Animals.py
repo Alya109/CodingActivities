@@ -8,12 +8,13 @@ class Animal:
         print("Meeeehhhhh")
         
     def describe(self):
-        print("Prints a description of the animal including its name and age.")
+        print(f"Name: {self.name}, Age: {self.age} years old.")
 
 class Lion(Animal):
     def make_sound(self):
         print("Roar!")
     def describe(self):
+        super().describe()
         print(f"{self.name} is a lion who lives in ....He is currently {self.age} years old!")
         
     def roar(self):
@@ -23,6 +24,7 @@ class Bird(Animal):
     def make_sound(self):
         print("Chirp!")
     def describe(self):
+        super().describe()
         print(f"{self.name} is a bird who lives in ....He is currently {self.age} years old!")
         
     def fly(self):
@@ -34,6 +36,7 @@ class Reptile(Animal):
     def crawl(self):
         print("Crawls stealthily.")
     def describe(self):
+        super().describe()
         print(f"{self.name} is a reptile who lives in ....He is currently {self.age} years old!")
         
 
