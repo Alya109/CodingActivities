@@ -33,17 +33,22 @@ class Reptile(Animal):
         print("Hiss!")
     def crawl(self):
         print("Crawls stealthily.")
+    def describe(self):
+        print(f"{self.name} is a reptile who lives in ....He is currently {self.age} years old!")
+        
 
-
-lion = Lion("Lion", 14)
-bird = Bird("Bird", 10)
-reptile = Reptile("Reptile", 12)
+lion = Lion("Emu", 14)
+bird = Bird("Shizuku", 10)
+reptile = Reptile("Tsukasa", 12)
 
 lion.make_sound()
 lion.roar()
+lion.describe()
 
 bird.make_sound()
 bird.fly()
+bird.describe()
 
 reptile.make_sound()
 reptile.crawl()
+reptile.describe()
