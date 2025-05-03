@@ -13,6 +13,8 @@ class Animal:
 class Lion(Animal):
     def make_sound(self):
         print("Roar!")
+    def describe(self):
+        print(f"{self.name} is a lion who lives in ....He is currently {self.age} years old!")
         
     def roar(self):
         print("Roars loudly.")
@@ -20,6 +22,8 @@ class Lion(Animal):
 class Bird(Animal):
     def make_sound(self):
         print("Chirp!")
+    def describe(self):
+        print(f"{self.name} is a bird who lives in ....He is currently {self.age} years old!")
         
     def fly(self):
         print("Flies high in the sky.")
@@ -27,7 +31,6 @@ class Bird(Animal):
 class Reptile(Animal):
     def make_sound(self):
         print("Hiss!")
-        
     def crawl(self):
         print("Crawls stealthily.")
 
