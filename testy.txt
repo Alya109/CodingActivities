@@ -1,0 +1,24 @@
+
+
+var1 = ttk.Radiobutton(parent, text="Option", value=1, variable=var)
+
+
+
+entry = Entry(root, textvariable=username, text=Username)
+entry.pack()
+
+
+name = ttk.Entry(parent, textvariable=username)
+
+
+
+variable = StringVar()
+var = ttk.Combobox(parent, textvariable=variable)
+
+
+Combobox(root, values=[...])S
+
+combo = ttk.Combobox(parent, textvariable=variable)
+
+
+
