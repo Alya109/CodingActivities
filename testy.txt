@@ -4,7 +4,7 @@ var1 = ttk.Radiobutton(parent, text="Option", value=1, variable=var)
 
 
 
-entry = Entry(root, textvariable=username, text=Username)
+entry = Entry(root, textvariable=variable)
 entry.pack()
 
 
